@@ -24,14 +24,15 @@
             </intent-filter>
         </activity>
         <activity
-
             android:name=".preLoginAtivity"
             android:label="@string/title_activity_pre_login_ativity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        android:name=".LoginActivity"
+        android:label="@string/title_activity_login">
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login">
-
     </application>
 
 </manifest>
