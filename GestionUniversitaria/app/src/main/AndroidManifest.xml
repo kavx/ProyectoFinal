@@ -24,14 +24,14 @@
             </intent-filter>
         </activity>
         <activity
-<<<<<<< HEAD
+
             android:name=".preLoginAtivity"
             android:label="@string/title_activity_pre_login_ativity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-=======
+
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
->>>>>>> origin/master
+            android:label="@string/title_activity_login">
+
     </application>
 
 </manifest>
