@@ -8,8 +8,6 @@
     tools:context="com.example.kavxpc.gestionuniversitaria.ScrollingActivity"
     tools:showIn="@layout/activity_scrolling">
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,23 +20,19 @@
             android:text="New Button"
             android:id="@+id/button" />
     </LinearLayout>
-=======
-=======
->>>>>>> parent of 683f5f0... Arreglando Scroll activity
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_margin"
-<<<<<<< HEAD
         android:text="En la UJCV creemos que una educación de calidad de clase mundial es la mejor herramienta para triunfar en el mundo de hoy; es por eso
 que a nuestros futuros egresados les brindamos un portafolio individual de competencias, que con su adecuada incorporación a los contenidos
 curriculares de sus áreas de estudio, lo transformarán en un recurso humano más competitivo y emprendedor al contar con las competencias más estimadas y consonantes a las expectativas del mundo empresarial y ajustadas a las necesidades y demandas de un mercado laboral competitivo y globalizado."
         android:textSize="20dp"
         android:textIsSelectable="true" />
->>>>>>> origin/master
-=======
+
         android:text="@string/large_text" />
->>>>>>> parent of 683f5f0... Arreglando Scroll activity
+
 
 </android.support.v4.widget.NestedScrollView>
 
