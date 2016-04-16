@@ -10,6 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.kavxpc.gestionuniversitaria.preLoginAtivity"
-    tools:showIn="@layout/app_bar_pre_login_ativity">
+    tools:showIn="@layout/app_bar_navdrawer">
 
 </RelativeLayout>
