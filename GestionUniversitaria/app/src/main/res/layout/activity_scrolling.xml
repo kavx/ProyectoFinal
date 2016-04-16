@@ -20,16 +20,18 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:background="#e6e3e3">
 
             <ImageView
-                android:id="@+id/imgPersona_banner"
+                android:id="@+id/imgUJCV_banner"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
 
                 android:fitsSystemWindows="true"
-                app:layout_collapseMode="parallax" />
+                app:layout_collapseMode="parallax"
+                android:background="@drawable/ujcv" />
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
