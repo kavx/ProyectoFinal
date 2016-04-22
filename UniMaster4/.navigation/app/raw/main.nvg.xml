@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dam.profesor.navigationdrawer.LoginActivity"/>
+      <point      
+        x = "1520"      
+        y = "204"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dam.profesor.navigationdrawer.MainActivity"/>
+      <point      
+        x = "396"      
+        y = "28"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dam.profesor.navigationdrawer.Preferencias"/>
+      <point      
+        x = "848"      
+        y = "376"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
