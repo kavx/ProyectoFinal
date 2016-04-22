@@ -28,7 +28,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageButton"
-                android:background="@drawable/mensajes" />
+                android:background="@drawable/mensajes"
+                android:onClick="onclick" />
 
         </TableRow>
 
@@ -37,7 +38,9 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageButton2"
             android:background="@drawable/notas"
-            android:layout_gravity="right" />
+            android:layout_gravity="right"
+            android:onClick="onclick "
+            android:nestedScrollingEnabled="true" />
 
         <ImageButton
             android:layout_width="match_parent"
@@ -45,6 +48,7 @@
             android:id="@+id/imageButton3"
             android:background="@drawable/pagar"
             android:layout_gravity="center_horizontal"
-            android:layout_weight="0.66" />
+            android:layout_weight="0.66"
+            android:onClick="onclick" />
     </LinearLayout>
 </RelativeLayout>
