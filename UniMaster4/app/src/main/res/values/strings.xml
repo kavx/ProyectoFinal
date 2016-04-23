@@ -37,5 +37,7 @@
     <string name="title_activity_mensajes">Mensajes</string>
     <string name="title_activity_notas">Notas</string>
     <string name="title_activity_pagar">Pagar</string>
+    <string name="title_activity_lista">Listado</string>
+    <string name="title_activity_detalle_persona">Detalle</string>
 
 </resources>
