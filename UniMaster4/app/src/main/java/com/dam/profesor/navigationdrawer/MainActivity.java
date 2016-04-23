@@ -49,6 +49,23 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
     }
 
+    public void clickMensajes(View v) {
+        Intent intent = new Intent(this, Mensajes.class);
+        startActivity(intent);
+
+    }
+
+    public void clickNotas(View v) {
+        Intent intent = new Intent(this, Notas.class);
+        startActivity(intent);
+    }
+
+    public void clickPagar(View v) {
+        Intent intent = new Intent(this,Pagar.class);
+        startActivity(intent);
+    }
+
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -91,17 +108,20 @@ public class MainActivity extends AppCompatActivity
         Fragment fragment = null;
 
 
-        if (id == R.id.nav_camara) {
+        if (id == R.id.login) {
+
+            Intent intent = new Intent(this,LoginActivity.class);
+            startActivity(intent);
+
             // Handle the camera action
-            fragment = new FragmentCamera();
-            FragmentTransaction = true;
+           // fragment = new FragmentCamera();
+           // FragmentTransaction = true;
         } else if (id == R.id.nav_gallery) {
             fragment = new FragmentGaleria();
             FragmentTransaction = true;
 
         } else if (id == R.id.nav_slideshow) {
-            Log.i("NavigationDrawer","Entro en opción slideshow");
-            getSupportActionBar().setTitle("Slide Show");
+
 
         } else if (id == R.id.nav_manage) {
             Log.i("NavigationDrawer","Entro en opción manage");

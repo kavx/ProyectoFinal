@@ -33,5 +33,9 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_menu_principal">MenuPrincipalActivity</string>
+    <string name="title_activity_mensajes">Mensajes</string>
+    <string name="title_activity_notas">Notas</string>
+    <string name="title_activity_pagar">Pagar</string>
 
 </resources>

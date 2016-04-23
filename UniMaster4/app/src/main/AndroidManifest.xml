@@ -23,10 +23,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Preferencias"></activity>
+        <activity android:name=".Preferencias" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".MenuPrincipalActivity"
+            android:label="@string/title_activity_menu_principal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mensajes"
+            android:label="@string/title_activity_mensajes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Notas"
+            android:label="@string/title_activity_notas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pagar"
+            android:label="@string/title_activity_pagar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
