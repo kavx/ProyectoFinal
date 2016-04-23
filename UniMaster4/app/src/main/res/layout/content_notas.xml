@@ -25,14 +25,15 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="80dp">
+            android:layout_marginLeft="65dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Gestion de Notas "
-                android:id="@+id/textView4" />
+                android:id="@+id/textView4"
+                android:layout_marginRight="40dp" />
         </LinearLayout>
 
         <LinearLayout
