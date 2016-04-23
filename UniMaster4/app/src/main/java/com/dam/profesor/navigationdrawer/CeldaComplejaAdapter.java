@@ -1,7 +1,5 @@
 package com.dam.profesor.navigationdrawer;
-/**
- * Created by Angel on 2016/03/12.
- */
+
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -34,8 +32,8 @@ public class CeldaComplejaAdapter extends ArrayAdapter<JSONObject> {
             celda = layoutInflater.inflate(R.layout.celdacompleja, null);
         }
 
-        final TextView titulo = (TextView) celda.findViewById(R.id.Titulo);
-        final TextView subTitulo = (TextView) celda.findViewById(R.id.SubTitulo);
+        final TextView nombreUsuario = (TextView) celda.findViewById(R.id.nombre);
+        final TextView correo = (TextView) celda.findViewById(R.id.correo);
         NetworkImageView niv = (NetworkImageView) celda.findViewById(R.id.imagen);
 
 
@@ -52,8 +50,8 @@ public class CeldaComplejaAdapter extends ArrayAdapter<JSONObject> {
             final String edad = elemento.getString("edad");
 
             //se setea informacion en celda compleja
-            titulo.setText(nombre);
-            subTitulo.setText(descripcion);
+            nombreUsuario.setText(nombre);
+            correo.setText(descripcion);
             niv.setImageUrl(imagen, VolleySingleton.getInstance().getM_imageLoader());
 
 

@@ -31,14 +31,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Large Text"
-                android:id="@+id/Titulo" />
+                android:text="Nombre"
+                android:id="@+id/nombre" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:id="@+id/SubTitulo" />
+                android:id="@+id/correo"
+                android:text="Correo" />
         </LinearLayout>
 
     </LinearLayout>
